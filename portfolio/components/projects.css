@@ -1,0 +1,92 @@
+.projectspage{
+    margin: auto;
+}
+#projects-head{
+    width: 100%;
+    top: 3vw;
+}
+.certs1{
+    margin: auto;
+}
+.certificate video{
+    width: 100%;
+    height: 80%;
+}
+#projectsdisp{
+    background-color: #191919;
+    width: 100vw;
+    height: 100vh;
+    max-width: 1490px;
+    margin: auto;
+    display: flex
+;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    position: relative;
+    top: 4vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.projectanim-img-cont{
+    display: flex;
+        width: 100%;
+        height: 80vh;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: 0;
+        top: 6vw;
+        background-color: #191919;
+}
+.projectanim{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projectanim iframe{
+    width: 80%;
+    height: 80%;
+}
+#projimg1{
+    width: 30%;
+}
+
+@media screen and (min-width:1024px) {
+    @media screen and (max-width:1439px) {
+        
+    }}
+
+@media screen and (min-width: 300px) {
+   @media screen and (max-width: 600px) {
+
+    #projectsdisp {
+        top: 0vw;
+    }
+
+    #projects-head{
+        top: 15vw;
+    }
+
+    .projectanim-img-cont{
+        top: 20vw;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .projectanim{
+        height: 50vh;
+        width: 100%;
+    }
+    #projimg1{
+        width: 90%;;
+    }
+
+}}
+@media screen and (min-width: 601px) {
+    @media screen and (max-width: 1023px) {
+        #projimg1{
+            width: 45%;;
+        }
+    }}

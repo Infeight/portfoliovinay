@@ -1,0 +1,384 @@
+.resume{
+    background-color: #191919;
+    width: 100vw;
+    height: 100vh;
+    max-width: 1490px;
+    margin: auto;
+}
+
+.aboutme{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 8vw;
+    background-color: #191919;
+}
+.myintro{
+    font-family: 'Roboto';
+    font-size: 1.5vw;
+    background-image: linear-gradient(45deg,#ed765e,#fea858);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 300;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+#resume-projects{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 2vw;
+    box-shadow: 0 0 0 ;
+     grid-template-columns: 100%;
+     grid-template-rows:  30% 30% 30% 10%;
+}
+
+.prj1{
+    width: 90%;
+    height: fit-content;
+    margin-bottom: 5vw 3vw;
+    margin: 1vw 5vw;
+    box-shadow: 0 0 2px orange;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.prj1 h4{
+    margin: 0;
+    font-size: 1.6vw;
+    background-image: linear-gradient(45deg,#ed765e,#fea858);
+    background-clip: text;
+    background-size: 200%;
+    -webkit-text-fill-color: transparent;
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif; 
+    text-align: left;
+}
+.prj1 h5{
+    margin: 0;
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+.prj1 p{
+    font-size: 1.3vw;
+    font-family: 'Roboto';
+    font-weight: lighter;
+    color: white;
+}
+
+.skillslist{
+    width: 100%;
+    height: 100vh;
+    background-color: #191919;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.skill-li{
+    width: 50%;
+    height: 80%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.skill-li li{
+    width: 80%;
+    height: fit-content;
+    color: aliceblue;
+    font-size: 1.8vw;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.6vw;
+    background-image: linear-gradient(45deg,#ed765e,#fea858);
+    background-clip: text;
+    background-size: 200%;
+    -webkit-text-fill-color: transparent;
+    animation-name: backanim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.skillanim{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skillanim iframe{
+    height: 55%;
+    width: 90%;
+}
+
+.education{
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+.educationanim{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+.educationanim iframe{
+    width: 100%;
+    height: 60%;
+}
+.educationdet{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.educationdet li{
+    width: 50%;
+    font-size: 1.5vw;
+    font-family: Roboto;
+    color: #ed765e;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+.ending{
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.languages{
+    width: 50%;
+    height: 40vh;
+    position: relative;
+    /* left: -6vw; */
+    /* top: 2vw; */
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.langanim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.langdet{
+    width: 50%;
+    height: 80%;
+   display: flex;
+   flex-direction: column;
+ list-style: none;
+ align-items: flex-start;
+ justify-content: space-evenly;
+}
+.langdet li{
+    font-size: 1.5vw;
+    color: aliceblue;
+    font-family: Roboto;
+}
+
+.thankyou{
+    font-size: 1.5vw;
+    font-weight: 300;
+    background-image: linear-gradient(45deg,#ed765e,#fea858);
+    background-clip: text;
+    background-size: 200%;
+    -webkit-text-fill-color: transparent;
+    animation-name: backanim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   font-family: 'Roboto';
+    width: 40%;
+
+}
+
+@media screen and (min-width:1024px) {
+    @media screen and (max-width:1439px) {
+        .myintro{
+            font-size: 2vw;
+        }
+        .prj1{
+            margin: 1.5vw 5vw;
+        }
+        .prj1 h4{
+            font-size: 2.5vw;
+        }
+        .prj1 h5{
+            font-size: 1.8vw;
+        }
+        .prj1 p{
+            font-size: 1.8vw;
+        }
+        .skill-li{
+            height: 60%;
+        }
+        .skill-li li{
+            font-size: 2vw;
+            width: 90%;
+        }
+        .education{
+            height: 50vh;
+        }
+        .educationdet li{
+            width: 65%;
+    font-size: 2vw;
+        }
+        .langdet li{
+            font-size: 2vw;
+            width: 60%;
+            word-wrap: break-word;
+        }
+        .thankyou{
+            font-size: 2vw;
+        }
+    }}
+
+    @media screen and (min-width: 300px) {
+        @media screen and (max-width: 600px) {
+            .nav{
+                position: fixed;
+            }
+            #resume-projects{
+                display: flex;
+                flex-direction: column;
+            }
+            .aboutme{
+                top: 20vw;
+            }
+            .myintro{
+                font-size: 4vw;
+            }
+            .prj1 h4{
+                font-size: 4vw;
+            }
+            .prj1 p{
+                font-size: 3.3vw;
+            }
+            .prj1 h5{
+                font-size: 3.4vw;
+            }
+            .skillslist{
+                flex-direction: column;
+            }
+            .skill-li{
+                height: 75%;
+                width: 90%;
+            }
+            .skill-li li{
+                width: 100%;
+                font-size: 4vw;
+            }
+            .skillanim{
+                width: 90%;
+            }
+            .skillanim iframe{
+                height: 70%;
+            }
+            .education{
+                flex-direction: column-reverse;
+            }
+            .educationdet{
+                width: 90%;
+            }
+            .educationdet li{
+                width: 100%;
+                font-size: 4vw;
+            }
+            .ending{flex-direction: column;
+            height: 60vh;
+            justify-content: space-evenly;
+            }
+            .languages{
+                width: 90%;
+                height: 30vh;
+            }
+            .langdet li{
+                font-size: 3.5vw;
+            }
+            .thankyou{
+                width: 90%;
+                font-size: 4vw;
+            }
+        }}
+
+        @media screen and (min-width: 601px) {
+            @media screen and (max-width: 1023px) {
+                .myintro{
+                    font-size: 2.5vw;
+                }
+                #resume-projects{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .prj1{
+                    margin: 2.5vw 5vw;
+                }
+                .prj1 h4{
+                    font-size: 2.5vw;
+                }
+                .prj1 p{
+                    font-size: 2.3vw;
+                    font-weight: 300;
+                }
+                .prj1 h5{
+                    font-size: 2.5vw;
+                }
+                .skillslist{
+                    height: 85vh;
+                }
+                .skill-li{
+                    height: 60%;
+                }
+                .skill-li li{
+                    font-size: 2.5vw;
+                    text-align: justify;
+                }
+               
+                .education{
+                    height: 45vh;
+                }
+                .educationdet li{
+                    width: 85%;
+                    font-size: 2.5vw;
+                }
+                .ending{
+                    height: 50vh;
+                    flex-direction: column;
+                }
+                .languages{
+                    height: 30vh;
+                }
+                .langdet{
+                    width: 100%;
+                }
+                .langdet li{
+                    font-size: 2.3vw;
+                }
+                .thankyou{
+                    font-size: 3vw;
+                    width:90% ;
+                }
+            }}

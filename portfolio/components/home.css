@@ -1,0 +1,859 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.home{
+    background-color: #232323;
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    max-width: 1490px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+        background-color: transparent;
+        height: 4vw;
+        width: 100%;
+        max-width: 1490px;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        top: 0vw;
+        background-color: #232323;
+        box-sizing: border-box;
+        z-index: 2;
+        /* padding-top: 2vw; */
+}
+
+.name{
+    font-size: 2.5vw;
+    font-weight: 600;
+    width: 50%;
+    height: auto;
+    font-family: "Roboto", sans-serif;
+    color: #fea858;
+    position: relative;
+    left: -8vw;
+}
+.project-btn{
+    color: #fea858;
+    font-size: 1.2vw;
+    box-sizing: border-box;
+    padding: 4px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    border-radius: 3vw;
+    position: relative;
+    right: -8vw;
+    box-shadow: 0px 0px 3px;
+    cursor: pointer;
+}
+
+
+.section1{
+    height: 100vh;
+    width:98%;
+    margin: auto;
+    background-color: #232323;
+}
+.section2{
+    height: 100vh;
+    width: 100%;
+    background-color: #191919;  
+}
+#block1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.intro{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* position: sticky; */
+}
+.head{
+    /* position: sticky; */
+    width: 80%;
+    /* top: 3vw; */
+    background-image: linear-gradient(45deg,#ed765e,#fea858);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    min-height: 5vw;
+    height: auto;
+    font-size: 3.2vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+   animation-name: backanim;
+   animation-iteration-count: infinite;
+   animation-duration: 2s;
+   
+}
+@keyframes backanim {
+   0%{
+    background-position: 0 100%;
+   }
+   50%{
+    background-position: 100% 0%;
+   }
+   100%{
+    background-position: 0% 100%;
+   }
+}
+.exp{
+    width: 80%;
+    background-color: transparent;
+    min-height: 5vw;
+    height: auto;
+    font-family: 'Roboto';
+    font-size: 2vw;
+    color: aliceblue;
+    font-weight: 200;
+    /* position: sticky; */
+}
+
+.social-btns{
+    width: 25vw;
+    background-color: transparent;
+    position: relative;
+    /* left: -7vw; */
+    top: 3vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resume-btn{
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: Roboto;
+    width: auto;
+    height: fit-content;
+    background-image: linear-gradient(45deg,#ed765e,#fea858);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    box-sizing: border-box;
+    padding: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.logos{
+   font-size: 2vw;
+  color: #fea858;
+}
+
+.profilepic{
+    width: 35%;
+    height: 60%;
+    border-radius: 73vw;
+    background-color: #fea858;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: profilepic 8s infinite ease;
+    position: sticky;
+    top: 4vw;
+}
+
+.profilepic1{
+    width: 99%;
+    height: 99%;
+    border-radius: 73vw;
+    background-color: #ed765e;
+    animation: profilepic1 8s infinite ease;
+
+}
+.profilepic1 img{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 73vw; */
+
+    animation: profilepic1 8s infinite ease;
+
+}
+
+
+
+@keyframes profilepic {
+    0%{
+        border-radius: 74vw 108vw 85vw 110vw;
+    }
+    15%{
+        border-radius: 73vw 100vw 77vw 102vw;
+    }
+    25%{
+        border-radius: 70vw 95vw 83vw 108vw;
+    }
+    40%{
+        border-radius: 68vw 85vw 95vw 98vw;
+    }
+    50%{
+        border-radius: 78vw 75vw 88vw 90vw;
+    }
+    60%{
+        border-radius: 83vw 79vw 78vw 96vw;
+    }
+    75%{
+        border-radius: 91vw 70vw 89vw 102vw;
+    }
+
+    88%{
+        border-radius: 85vw 89vw 82vw 108vw;
+    }
+
+    100%{
+        border-radius: 74vw 108vw 85vw 110vw;
+    }
+}
+
+
+@keyframes profilepic1 {
+    0%{
+        border-radius: 73vw 100vw 77vw 102vw;
+    }
+    15%{
+       
+        border-radius: 69vw 98vw 85vw 110vw;
+    }
+    25%{
+        border-radius: 68vw 85vw 95vw 98vw;
+       
+    }
+    40%{
+        border-radius: 70vw 88vw 83vw 108vw;
+    }
+    50%{
+        border-radius: 83vw 75vw 78vw 96vw;
+    }
+    60%{
+        
+        border-radius: 78vw 70vw 88vw 90vw;
+    }
+    75%{
+        border-radius: 85vw 89vw 82vw 108vw;
+    }
+
+    88%{
+       
+        border-radius: 91vw 85vw 89vw 102vw;
+    }
+
+    100%{
+        border-radius: 73vw 100vw 77vw 102vw;
+    }
+}
+
+/* block2 css */
+
+#block2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animimg{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.animimg iframe{
+    width: 70%;
+    height: 70%;
+}
+.quote{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.quote-p{
+    width: 80%;
+    height: auto;
+    height: fit-content;
+    background-image: linear-gradient(45deg,#ed765e,#fea858);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+
+}
+.contactme{
+    width: 55%;
+    height: auto;
+    font-size: 1.5vw;
+    font-family: 'Roboto';
+    color: aliceblue;
+    font-weight: 200;
+}
+.skillset{
+    width: 60vw;
+    height: 25vw;
+    background-color: transparent;
+    position: relative;
+    top: -4vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.skill{
+    width: 30%;
+    height: 95%;
+    background-color :#191919 ;
+    box-shadow: 0px 2px 3px #ed765e;
+}
+
+.skill h3{
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(45deg,#ed765e,#fea858);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+}
+.skill p{
+    color: white;
+    font-size: 1.3vw;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+/* Block3 css */
+
+#block3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projects{
+    width: 50%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: black;
+    box-shadow: 0 0 5px #ed765e;
+}
+.prj{
+   width: 100% ;
+   height: 100%;
+}
+.prj video{
+    width: 100%;
+    height: 100%;
+    /* transform: scale(1.2); */
+}
+.workcaption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 80%;
+
+}
+.workcaption h3{
+    background-image: linear-gradient(45deg,#ed765e,#fea858);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 8.5vw;
+    font-family: "Roboto", sans-serif; 
+    text-align: right;
+}
+
+/* Block 4 csss */
+
+.exphead{
+    position: relative;
+    top: 6vw;
+    width: 100vw;
+    max-width: 1490px;
+    background-image: linear-gradient(45deg, #ed765e, #fea858);
+    background-clip: text;
+    background-size: 200%;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5vw;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    animation-name: backanim;
+    animation-iteration-count: infinite;
+    animation-duration: 2s
+}
+.pastproject{
+    display: flex;
+        width: 100%;
+        height: 60%;
+        justify-content: space-evenly;
+        align-items: center;
+
+}
+.projectpastdes{
+    width: 40%;
+    height: 90%;
+    background-color: #191919;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 0 0 2px #fea858;
+    position: relative;
+    top: -6vw;
+}
+.projectpastdes:hover{
+    box-shadow: 0 0 5px #fea858;
+
+}
+.projectpastdes h4{
+    font-size: 1.6vw;
+    background-image: linear-gradient(45deg,#ed765e,#fea858);
+    background-clip: text;
+    background-size: 200%;
+    -webkit-text-fill-color: transparent;
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif; 
+    text-align: left;
+    animation-name: backanim;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.projectpastdes p{
+  font-size: 1.3vw;
+  font-family: 'Roboto';
+  font-weight: lighter;
+  color: white;
+  
+}
+
+#contactdet{
+    display: flex;
+    background-color: #191919;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 4vw;
+}
+.phno{
+  font-size: 1.2vw;
+  background-image: linear-gradient(45deg,#ed765e,#fea858);
+  background-clip: text;
+  background-size: 200%;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Roboto';
+}
+.contactlink{
+    text-align: center;
+}
+.contactlink a{
+    font-size: 1.5vw;
+  background-image: linear-gradient(45deg,#ed765e,#fea858);
+  background-clip: text;
+  background-size: 200%;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Roboto';
+}
+
+
+@media screen and (min-width:1024px) {
+    @media screen and (max-width:1439px) {
+      .profilepic{
+        height: 50%;
+      } 
+      .project-btn a{
+        font-size: 1.7vw;
+      }  
+      .social-btns{
+        width: 35vw;
+        /* left: -2vw; */
+      }
+      .resume-btn{
+        font-size: 2vw;
+      }
+      .nav{
+        height: 5vw;
+      }
+      .name{
+        font-size: 3.5vw;
+      }
+      .project-btn{
+        font-size: 1.5vw;
+      }
+      .quote-p{
+        font-size: 3.5vw;
+      }
+      .contactme{
+        font-size: 2vw;
+      }
+      .contactlink a{
+        font-size: 2.2vw;
+      }
+      .skillset{
+        width: 75vw;
+      }
+      .skill{
+        height: 100%;
+      }
+      .skill p {
+        font-size: 1.6vw;
+      }
+      .pastproject{
+        width: 100%;
+        height: 80%;
+      }
+      .projectpastdes{
+        width: 40%;
+        min-height: 70%;
+        height: fit-content;
+        top: -4vw;
+      }
+      .projectpastdes p{
+        font-size: 2vw;
+      }
+      .exphead{
+        top: 0vw;
+      }
+      .phno{
+        font-size: 2vw;
+      }
+    }
+}
+
+@media screen and (min-width: 300px) {
+    @media screen and (max-width: 600px) {
+        #block1{
+            flex-direction: column-reverse;
+        }
+        .nav{
+            position: absolute;
+            top: 0vw;
+            backdrop-filter: blur(5px);
+            background-color: transparent;
+            height: 10vw;
+            background-color: #00000057;
+        }
+        .name{
+            font-size: 6vw;
+        }
+        .project-btn a{
+            font-size: 3.2vw;
+        }
+        .profilepic{
+            width: 100vw;
+            animation: none;
+            top: 0vw;
+        }
+        .profilepic1{
+            width: 100vw;
+            height: 100%;
+            animation: none;
+        }
+        .profilepic1 img{
+            animation: none;
+
+        }
+        .intro{
+            width: 90%;
+        }
+        .head{
+            width: 100%;
+            font-size: 6.5vw;
+            font-weight: 300;
+        }
+        .exp{
+            font-size: 4vw;
+        }
+        .social-btns{
+            width: 100%;
+        }
+        .resume-btn{
+            font-size: 4vw;
+        }
+        .logos{
+            font-size: 4.5vw;
+        }
+
+        #block2{
+            flex-direction: column-reverse;
+        }
+        .quote{
+            width: 90%;
+            height: 70%;
+        }
+        .quote-p{
+            font-size: 8vw;
+        }
+        .contactme{
+            text-align: right;
+            font-size: 4vw;
+            width: 80%;
+        }
+        .contactlink a{
+            font-size: 4vw;
+        }
+        .animimg{
+            width: 100%;
+        }
+        .skillset{
+            width: 100vw;
+            height: 40vw;
+            flex-direction: column;
+            top: -12vw;
+        }
+        .skill{
+            width: 95%;
+        }
+        .skill h3{
+            font-size: 4vw;
+        }
+        .skill p {
+            margin: 0;
+            font-size: 3.5vw;
+        }
+        .projects{
+            display: none;
+        }
+        #block3{
+            height: 90vh;
+        }
+        .workcaption{
+            width: 90%;
+            height: 40%;
+        }
+        .workcaption h3{
+            font-size: 14.5vw;
+        }
+        .pastproject{
+            top: -25vw;
+            position: relative;
+            height: 75%;
+            flex-direction: column;
+        }
+        .projectpastdes{
+            width: 90%;
+            height: 45%;
+            padding: 5px;
+        }
+        .projectpastdes h4{
+            font-size: 4.5vw;
+            margin: 0;
+        }
+        .projectpastdes p{
+            font-size: 3.8vw;
+        }
+        .exphead{
+            font-size: 7.5vw;
+            top: -8vw;
+        }
+        #contactdet{
+            height: 6vw;
+        }
+        .phno{
+            font-size: 3.5vw;
+        }
+    }}
+
+
+    @media screen and (min-width: 601px) {
+        @media screen and (max-width: 1023px) {
+            #block1{
+                flex-direction: column-reverse;
+            }
+            .nav{
+                height: 6vw;
+            }
+            .name{
+                font-size: 4vw;
+            }
+            .project-btn{
+                font-size: 2vw;
+            }
+            .profilepic{
+                width: 55%;
+                top: 10vw;
+                position: relative;
+            }
+           .intro{
+            width: 85%;
+            height: 60%;
+           }
+           .head{
+            width: 100%;
+            font-size: 4.5vw;
+            font-weight: 300;
+           }
+           .exp{
+            width: 100%;
+            font-size: 3vw;
+           }
+           .social-btns{
+            width: 50%;
+           }
+           .resume-btn{
+            font-size: 2.5vw;
+           }
+           .logos{
+            font-size: 3vw;
+           }
+           .quote-p{
+            font-size: 5vw;
+           }
+           .contactme{
+            font-size: 3vw;
+           }
+           .contactlink a{
+            font-size: 3vw;
+           }
+           .skillset{
+            width: 90vw;
+            height: 45vw;
+           }
+           .skill h3{
+            font-size: 3.2vw;
+           }
+           .skill p{
+            font-size: 2.3vw;
+           }
+
+           .projects{
+            display: none;
+        }
+        #block3{
+            height: 70vh;
+        }
+        .workcaption{
+            width: 90%;
+            height: 40%;
+        }
+        .workcaption h3{
+            font-size: 14.5vw;
+        }
+
+           .projectpastdes h4{
+            font-size: 3vw;
+            margin: 0;
+           }
+           .projectpastdes p{
+            font-size: 2.6vw;
+            font-weight: 400;
+           }
+           .exphead{
+            font-size: 6vw;
+            top: 12vw;
+           }
+           .phno
+           {font-size: 2.5vw;}
+        }}
+    @media screen and(min-width:1024px) {
+        @media screen and(max-width: 1040px) {
+            @media screen and (min-height:1300px) {
+                #block1{
+                    flex-direction: column-reverse;
+                }
+                .nav{
+                    height: 6vw;
+                }
+                .name{
+                    font-size: 4vw;
+                }
+                .project-btn{
+                    font-size: 2vw;
+                }
+                .profilepic{
+                    width: 55%;
+                    top: 10vw;
+                    position: relative;
+                }
+               .intro{
+                width: 85%;
+                height: 60%;
+               }
+               .head{
+                width: 100%;
+                font-size: 4.5vw;
+                font-weight: 300;
+               }
+               .exp{
+                width: 100%;
+                font-size: 3vw;
+               }
+               .social-btns{
+                width: 50%;
+               }
+               .resume-btn{
+                font-size: 2.5vw;
+               }
+               .logos{
+                font-size: 3vw;
+               }
+               .quote-p{
+                font-size: 5vw;
+               }
+               .contactme{
+                font-size: 3vw;
+               }
+               .contactlink a{
+                font-size: 3vw;
+               }
+               .skillset{
+                width: 90vw;
+                height: 45vw;
+               }
+               .skill h3{
+                font-size: 3.2vw;
+               }
+               .skill p{
+                font-size: 2.3vw;
+               }
+    
+               .projects{
+                display: none;
+            }
+            #block3{
+                height: 70vh;
+            }
+            .workcaption{
+                width: 90%;
+                height: 40%;
+            }
+            .workcaption h3{
+                font-size: 14.5vw;
+            }
+    
+               .projectpastdes h4{
+                font-size: 3vw;
+                margin: 0;
+               }
+               .projectpastdes p{
+                font-size: 2.6vw;
+                font-weight: 400;
+               }
+               .exphead{
+                font-size: 6vw;
+                top: 12vw;
+               }
+               .phno
+               {font-size: 2.5vw;}
+            }
+        }
+    }
