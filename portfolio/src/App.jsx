@@ -2,11 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Home from '../components/home'
-import Certifications from '../components/certifications'
-import Resume from '../components/resume'
+import Home from '../src/components/home'
+import Certifications from '../src/components/certifications'
+import Resume from '../src/components/resume'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import Projects from '../components/projects'
+import Projects from '../src/components/projects'
 
 
 function App() {

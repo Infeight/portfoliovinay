@@ -1,5 +1,5 @@
 import React from 'react'
-import './certifications.css'
+import '../components/certifications.css'
 import { Link } from 'react-router-dom';
 
 

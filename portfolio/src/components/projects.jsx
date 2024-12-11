@@ -1,7 +1,7 @@
 import React from 'react'
 import './certifications.css'
 import { Link } from 'react-router-dom'
-import './projects.css'
+import '../components/projects.css'
 
 const Projects = () => {
   return (

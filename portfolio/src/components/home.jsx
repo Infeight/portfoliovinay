@@ -1,5 +1,5 @@
 import React from 'react'
-import './home.css'
+import '../components/home.css'
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { Link } from 'react-router-dom';

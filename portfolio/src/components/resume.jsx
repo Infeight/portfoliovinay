@@ -1,5 +1,5 @@
 import React from 'react'
-import './resume.css'
+import '../components/resume.css'
 import { Link } from 'react-router-dom'
 
 const Resume = () => {
