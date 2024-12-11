@@ -573,24 +573,27 @@
 
         }
         .intro{
-            width: 90%;
+            width: 95%;
+            justify-content: space-evenly;
+            align-items: flex-start;
         }
         .head{
             width: 100%;
-            font-size: 6.5vw;
+            font-size: 7vw;
             font-weight: 300;
         }
         .exp{
-            font-size: 4vw;
+            font-size: 5vw;
+            width: 100%;
         }
         .social-btns{
             width: 100%;
         }
         .resume-btn{
-            font-size: 4vw;
+            font-size: 4.5vw;
         }
         .logos{
-            font-size: 4.5vw;
+            font-size: 5.5vw;
         }
 
         #block2{
@@ -598,21 +601,30 @@
         }
         .quote{
             width: 90%;
-            height: 70%;
+            height: 50%;
         }
         .quote-p{
-            font-size: 8vw;
+
+            width: 100%;
+            font-size: 9.5vw;
         }
         .contactme{
             text-align: right;
-            font-size: 4vw;
-            width: 80%;
+            font-size: 5.5vw;
+            width: 100%;
         }
         .contactlink a{
-            font-size: 4vw;
+            font-size: 5vw;
         }
         .animimg{
             width: 100%;
+            top: -8vw;
+            position: relative;
+            height: 50%;
+        }
+        .animimg iframe{
+            width: 75%;
+            height: 75%;
         }
         .skillset{
             width: 100vw;
@@ -624,11 +636,15 @@
             width: 95%;
         }
         .skill h3{
-            font-size: 4vw;
+            font-size: 5.5vw;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .skill p {
             margin: 0;
-            font-size: 3.5vw;
+            font-size: 4vw;
         }
         .projects{
             display: none;
