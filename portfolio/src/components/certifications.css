@@ -40,6 +40,10 @@
   box-shadow: 0 0 5px #ed765e;  
   box-sizing: border-box;
   padding: 10px;
+  animation-name: appear;
+  animation-direction: linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 40%;
 }
 .certificate:hover{
   box-shadow: 0 0 5px #ed765e;  

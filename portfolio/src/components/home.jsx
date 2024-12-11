@@ -33,6 +33,7 @@ const Home = () => {
             </div>
         </div>
     </div>
+    <div className="view">
     <div className="section2" id='block2'>
       <div className="animimg">
         <iframe src="https://lottie.host/embed/02d41fc8-e4e6-439d-b5ee-b1b3f1b516aa/38I9fziCuV.lottie" frameborder="0"></iframe>
@@ -93,6 +94,8 @@ const Home = () => {
       <div className="exphead">Let's work together to turn your vision into reality with precision, innovation, and excellence.</div>
 
     </div>
+    </div>
+
    <div id="contactdet">
      <div className="phno">Phone: +91 7842231460</div>
      <div className="phno">E mail: vinaymamidi05@gmail.com</div>

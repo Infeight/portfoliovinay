@@ -17,6 +17,7 @@ const Certifications = () => {
        
        <div className="heading">Certifications</div>
 
+<div className="view">
         <div className="certs">
         <div className='certificate'>
             <img src="cert1.jpg" alt="" />
@@ -41,6 +42,7 @@ const Certifications = () => {
 
         <div className='certificate'>
             <iframe src="https://lottie.host/embed/ca0dbbb8-4d9f-4add-be06-e75be07927ba/UfxEBCJ4Vy.lottie" frameborder="0"></iframe>
+        </div>
         </div>
      </div>
      </div>
