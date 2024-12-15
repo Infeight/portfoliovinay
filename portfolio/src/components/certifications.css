@@ -63,7 +63,7 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Roboto';
-    font-size: 2vw;
+    font-size: 1.4vw;
 }
 .certificate iframe{
     width: 100%;
